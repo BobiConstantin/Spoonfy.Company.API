@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>b9413194-0a99-490d-ade4-af960fa4c203</UserSecretsId>
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataAccess\Interfaces\" />
+  </ItemGroup>
+
+
+</Project>
