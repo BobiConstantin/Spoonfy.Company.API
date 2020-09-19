@@ -14,7 +14,7 @@ namespace Spoonfy.Company.API.Controllers
         [HttpGet]
         public string GetCompanyName()
         {
-            return "a";
+            return "b";
         }
     }
 }
