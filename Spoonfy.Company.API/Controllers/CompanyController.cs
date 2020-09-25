@@ -16,5 +16,11 @@ namespace Spoonfy.Company.API.Controllers
         {
             return "c";
         }
+
+        [HttpGet]
+        public string GetCompanyName2()
+        {
+            return "c2";
+        }
     }
 }
